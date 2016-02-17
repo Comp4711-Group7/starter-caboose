@@ -12,8 +12,8 @@
 	$.fn.jRating = function(op) {
 		var defaults = {
 			/** String vars **/
-			bigStarsPath : 'jquery/icons/stars.png', // path of the icon stars.png
-			smallStarsPath : 'jquery/icons/small.png', // path of the icon small.png
+			bigStarsPath : '/assets/images/stars.png', // path of the icon stars.png
+			smallStarsPath : '/assets/images/small.png', // path of the icon small.png
 			phpPath : 'php/jRating.php', // path of the php file jRating.php
 			type : 'big', // can be set to 'small' or 'big'
 
@@ -165,7 +165,7 @@
 							if(!data.error)
 							{
 								/** ONLY FOR THE DEMO, YOU CAN REMOVE THIS CODE **/
-									$('.serverResponse p').html(data.server);
+								/**	$('.serverResponse p').html(data.server);
 								/** END ONLY FOR THE DEMO **/
 
 
@@ -178,7 +178,7 @@
 							{
 
 								/** ONLY FOR THE DEMO, YOU CAN REMOVE THIS CODE **/
-									$('.serverResponse p').html(data.server);
+								/**	$('.serverResponse p').html(data.server);
 								/** END ONLY FOR THE DEMO **/
 
 								/** Here you can display an alert box, 
